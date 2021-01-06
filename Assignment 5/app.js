@@ -1,3 +1,5 @@
+
+
 var a = 5;
 var b = 3;
 var c = a + b;
@@ -60,7 +62,7 @@ var farenheit = 80
 var celsiustemp = (farenheit-32)*5/9
 document.write("80oF is" + " " + celsiustemp + "oC" + "<br/><br/><br/><br/>")
 
-document.write("Shopping Cart" + "<br/>")
+document.write("<h1>Shopping Cart</h1>" + "<br/>")
 var item1 = 650
 var item2 = 100
 var quanitem1 = item1*3
@@ -74,7 +76,7 @@ document.write("Shipping Charges 100" + "<br/>")
 document.write("Total cost of your order is" + " " + totalcost + "<br/><br/><br/><br/>")
 
 
-document.write("Marks Sheet" + "<br/>")
+document.write("<h1>Marks Sheet</h1>" + "<br/>")
 var totalmarks = 980
 var obtainedmarks = 804
 var markspercentage = obtainedmarks/totalmarks*100
@@ -82,7 +84,8 @@ document.write("Total Marks:" + " " + totalmarks + "<br/>")
 document.write("Obtained Marks:" + " " + obtainedmarks + "<br/>")
 document.write("Percentage:" + " " + markspercentage + "<br/><br/><br/><br/>")
 
-
+//Exercise 9
+document.write("<h1>Currency in PKR</h1>" + "<br/>")
 var oneusdollar = 104.80
 var onesaudiriyal = 28
 var dollar = oneusdollar*10
@@ -90,12 +93,34 @@ var riyal = onesaudiriyal*25
 
 document.write("Total Currency in PKR:" + dollar+riyal + "<br/><br/><br/><br/>")
 
-
+//Exercise 10
+document.write("<h1>Exercise 10</h1>")
 var number = 6
 var sol = ((6+5)*10)/2
 document.write(sol + "<br/><br/><br/><br/>")
 
 
+//Exercise 11
+document.write("<h1>Age Calculator</h1>")
+var currentyear = 2020
+var birthyear = 1999
+var agenow = currentyear - birthyear
+
+document.write("Current Year:" + " "+ currentyear+"<br/>")
+document.write("Birth Year:" + " "+ birthyear+"<br/>")
+document.write("Your Age:" + " "+ agenow + "<br/><br/><br/><br/>")
+
+//Exercise 12
+document.write("<h1>The Geometrizer</h1>"+"<br/>")
+var radius = 25;
+var pie = 3.142;
+var circumference = 2*pie*radius;
+document.write("Radius of a circle:" + " "+ radius+"<br/>")
+document.write("The circumference is:" + " "+ circumference+"<br/>")
+var area = pie*(radius*radius)
+document.write("The area is:" + " "+ area+"<br/>")
+//Exercise 13
+document.write("<h1>The Lifetime Supply Calculator</h1>"+"<br/>")
 var favsnack = "Chips"
 var currentage = 15
 var maxage = 65
